@@ -45,6 +45,7 @@ A terceira figura é um botão de fechamento de todo o aplicativo, e por fim, o 
 <img width="994" height="286" alt="image" src="https://github.com/user-attachments/assets/c6aeb627-9a85-4ff6-8aad-430e16063eb8" />
 
 Um ultimo ponto de extrema importancia é o grafico que pode ser gerado com algumas informações especificas, onde podem ser alteradas de acordo com o cliente e a solicitação:
+
 <img width="706" height="294" alt="image" src="https://github.com/user-attachments/assets/cb780693-1e78-44a2-b287-d1a73e1f694d" />
 
 Curtiu a breve explicação do projeto? Caso queira mais informações basta entrar em contato no meu e-mail: leonardodenislga@gmail.com
