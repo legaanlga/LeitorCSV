@@ -42,43 +42,43 @@ Projeto desenvolvido com foco em **visualização aprimorada de arquivos .CSV** 
 
 ### 🔹 Exemplo de arquivo .CSV original:
 
-![CSV Original](\Pictures\csv.png)
+![CSV Original](./Pictures/csv.png)
 
 ---
 
 ### 🔹 Visualização no LeitorCSV:
 
-![CSV Formatado](\Pictures\app.png)
+![CSV Formatado](./Pictures/app.png)
 
 ---
 
 ### 🔹 Tela de Licenciamento:
 
-![Licenciamento](\Pictures\licença.png)
+![Licenciamento](./Pictures/licença.png)
 
 ---
 
 ### 🔹 Filtro Inteligente:
 
-![Filtro](\Pictures\filtro.png)
+![Filtro](./Pictures/filtro.png)
 
 ---
 
 ### 🔹 Menu Suspenso:
 
-![Menu](\Pictures\menu.png)
+![Menu](./Pictures/menu.png)
 
 ---
 
 ### 🔹 PDF Com Validação:
 
-![PDF](\Pictures\pdf.png)
+![PDF](./Pictures/pdf.png)
 
 ---
 
 ### 🔹 Gráficos Gerados:
 
-![Gráfico](\Pictures\grafico.png)
+![Gráfico](./Pictures/grafico.png)
 
 ---
 
