@@ -1,53 +1,104 @@
-# LeitorCSV
-Leitor/Formatador de arquivos .CSV
+# 📊 LeitorCSV – Leitor e Formatador de Arquivos .CSV
 
-Esse projeto foi desenvolvido visando a melhoria visual de arquivos .csv gerados por ihm's e clp's industriais. Seu intuito é gerar uma representação harmoniosa dos dados presentes em um arquivo .csv sem invalidar o arquivo original. Dentre seus objetivos, além de algo mais simples e bonito ao olhar analitico, investi em filtros, modulos, acessibilidade, proteção de dados, validações licenciadas, conversões de dados, layout aprimorado, importação e exportação entre outras varias ferramentas.
+Projeto desenvolvido com foco em **visualização aprimorada de arquivos .CSV** gerados por **IHMs** e **CLPs industriais**. O principal objetivo é oferecer uma leitura mais organizada, funcional e agradável ao olhar analítico, sem modificar o arquivo original.
 
-<img width="1332" height="242" alt="image" src="https://github.com/user-attachments/assets/05749985-39bf-4cba-9789-18c1504e06da" />
-Um exemplo real de um arquivo .csv com dados reais encontrados.
+---
 
-<img width="1361" height="712" alt="image" src="https://github.com/user-attachments/assets/f61b2915-39c4-4df9-8165-2ce269fa3f3f" />
-Um exemplo real do mesmo arquivo na imagem anterior ao ser importado no aplicativo.
+## 🚀 Funcionalidades
 
-O objetivo desde documento é relatar as funções presentes neste projeto, assim como suas possiveis melhorias e implementações futuras.
+- 📥 **Importação de Arquivos .CSV** com validação de extensão
+- 🔐 **Sistema de Licenciamento** com validação offline, rastreamento de chaves e bloqueio por tentativas inválidas
+- 🧑‍💻 **Login Administrativo** para desbloqueio e controle de acessos
+- 📊 **Exibição de Dados com Layout Aprimorado** para facilitar a leitura
+- 🧠 **Filtros Inteligentes** com suporte a múltiplos tipos de dados
+- 📲 **Interface Compatível com Dispositivos Touch**
+- 🧾 **Exportação em PDF** com campos de assinatura e logo personalizada
+- 📈 **Geração de Gráficos Dinâmicos** com dados customizáveis por cliente
+- 🔄 **Importação/Exportação com Integração Modular**
 
-Do começo então,
+---
 
-Logo no inicio iremos nos deparar com um sistema de validação de licença, que já tem um sistema de validação funcional e operando a todo vapor, com inclusão de validações "offline" e implementação de melhorias contra clones e chaves falsa. Sistema de chaves de acesso temporario, permanente, rastreabilidade e registro de acesso.
+## 🛠️ Tecnologias Utilizadas
 
-<img width="467" height="262" alt="image" src="https://github.com/user-attachments/assets/b329133a-5c15-4986-b2e5-62a84a26bbb1" />
+- **Microsoft Excel com VBA (Visual Basic for Applications)**
+- **Forms Personalizados**
+- **Macros Protegidas com Senhas**
+- **Design Responsivo para Touch**
+- **Módulos de Exportação (PDF, CSV)**
+- **Python para Banco de Dados**
+---
 
-Imagem referente a primeira camada do sistema de licença.
+## 📚 O que Aprendi com Este Projeto
 
-Ainda nesse mesmo sistema, temos um recurso de tentativas invalidas, o que gera bloqueio do aplicativo por tentativa de invasão indevida, com liberação apenas pelo controlador administrador.
+- Como criar um **aplicativo desktop com interface gráfica completa** dentro do Excel
+- Técnicas de **validação de arquivos, segurança de acesso e licenciamento**
+- Geração de **PDFs automatizados e personalizáveis**
+- Uso extensivo de **filtros e manipulação de dados tabulares**
+- **Design e UX** para tornar a visualização de dados acessível e limpa
 
-<img width="410" height="230" alt="image" src="https://github.com/user-attachments/assets/1c147570-b7ed-41cf-801c-25f5b67ebfa2" />
+---
 
-Imagem referente a aba de login administrativo
+## 🖼️ Exemplos Visuais
 
-Ao acessarmos a parte inicial do aplicativo, temos acesso a importação dos arquivos .csv, onde já tem um sistema de validação da extensão do arquivo.
+### 🔹 Exemplo de arquivo .CSV original:
 
-<img width="465" height="285" alt="image" src="https://github.com/user-attachments/assets/4fca6d2f-5937-498b-8050-b4bdcea32d7a" />
+![CSV Original](<img width="1332" height="242" alt="image" src="https://github.com/user-attachments/assets/92b2773f-5191-4c15-8bd6-233e9b7e658b" />)
 
-Agora que acessamos definitivamente a tabela da forma que queriamos, vou apresentar-lhes as ferramentes presentes no mesmo.
+---
 
-Primeira ferramenta, um menu suspenso para trabalharmos com o projeto todo em possiveis dispositivos touch.
-<img width="244" height="108" alt="image" src="https://github.com/user-attachments/assets/c77b00a1-4fc4-4bbc-8803-6ea3fe780a9c" />
+### 🔹 Visualização no LeitorCSV:
 
-Nele podemos observar 4 figuras, sendo a primeira o botão de importação, para importarmos um novo .csv, o segundo um botão de filtro (que pode ser acessados através de atalhos),
+![CSV Formatado](<img width="1361" height="712" alt="image" src="https://github.com/user-attachments/assets/7793a228-22a7-4e7f-88a1-354d9401b793" />)
 
-<img width="511" height="501" alt="image" src="https://github.com/user-attachments/assets/01184830-845a-4bd9-a94e-bd48a83318b2" />
+---
 
-onde o mesmo tem diversos tipos de dados para serem filtrados.
+### 🔹 Tela de Licenciamento:
 
-A terceira figura é um botão de fechamento de todo o aplicativo, e por fim, o ultimo botão é um botão para exportar todos o dados em pdf! Tal pdf já vem com campos de assinatura em todas as pagina e logos escolhidas pelo usuario.
+![Licenciamento](<img width="467" height="262" alt="image" src="https://github.com/user-attachments/assets/4c27dcfa-d8cc-4542-80f9-912d80c7a5ad" />)
 
-<img width="994" height="286" alt="image" src="https://github.com/user-attachments/assets/c6aeb627-9a85-4ff6-8aad-430e16063eb8" />
+---
 
-Um ultimo ponto de extrema importancia é o grafico que pode ser gerado com algumas informações especificas, onde podem ser alteradas de acordo com o cliente e a solicitação:
+### 🔹 Filtro Inteligente:
 
-<img width="706" height="294" alt="image" src="https://github.com/user-attachments/assets/cb780693-1e78-44a2-b287-d1a73e1f694d" />
+![Filtro](<img width="511" height="501" alt="image" src="https://github.com/user-attachments/assets/ac2eeea4-3c5a-4a8e-87a3-211714366d51" />)
 
-Curtiu a breve explicação do projeto? Caso queira mais informações basta entrar em contato no meu e-mail: leonardodenislga@gmail.com
+---
 
-Nota: todas as informações podems ser editadas e trabalhadas da maneira que for necessaria.
+### 🔹 Menu Suspenso:
+
+![Menu](<img width="244" height="108" alt="image" src="https://github.com/user-attachments/assets/112669f2-d891-422c-be7c-24b357b987ea" />)
+
+---
+
+### 🔹 PDF Com Validação:
+
+![PDF](<img width="244" height="108" alt="image" src="https://github.com/user-attachments/assets/112669f2-d891-422c-be7c-24b357b987ea" />)
+
+---
+
+### 🔹 Gráficos Gerados:
+
+![Gráfico](<img width="994" height="286" alt="image" src="https://github.com/user-attachments/assets/2c68d8e6-8a94-46d7-8b23-8a54e7489a57" />)
+
+---
+
+## ✨ Melhorias Futuras
+
+- Integração com banco de dados local
+- Versão stand-alone sem dependência do Excel
+- Exportação para formatos adicionais (.xlsx, .json)
+- Interface multilíngue
+
+---
+
+## 📫 Contato
+
+Entre em contato para saber mais ou solicitar melhorias:
+
+**📧** leonardodenislga@gmail.com  
+**📍** Jacareí – São Paulo – Brasil  
+
+---
+
+> 💡 **Nota:** Todas as informações deste documento podem ser editadas e adaptadas conforme a necessidade do projeto e do cliente.
+
