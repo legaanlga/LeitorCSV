@@ -78,7 +78,7 @@ Projeto desenvolvido com foco em **visualização aprimorada de arquivos .CSV** 
 
 ### 🔹 Gráficos Gerados:
 
-![Gráfico](.\Pictures\grafico.png)
+![Gráfico](\Pictures\grafico.png)
 
 ---
 
